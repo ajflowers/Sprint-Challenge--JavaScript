@@ -49,3 +49,12 @@ function myFunction() {
   nestedFunction();
 }
 myFunction();
+
+// Note that internal cannot be accessed from the global scope:
+// console.log(internal); //undefined
+
+// Nor can it be accessed from another function's scope that is not part of myFunction's scope
+function foo() {
+  console.log(internal);
+}
+//foo();  //undefined
