@@ -48,6 +48,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Why do we need super() in an extended class?
 
+*super() is what lets the extend class's constructor inherit everything in the parent class's constructor.*
+
 ## Project Set up
 
 Follow these steps to set up and work on your project:
